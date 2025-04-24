@@ -3,10 +3,23 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-font-family: 'IBM Plex mono', monospace;
+  --main-text-color: #353430;
+  --title-color: #FFC2E6;
+  --title-shadow: #FF0070;
+  --background-color: #FFF1F7;
+  --sector-title-bg-color:  #FF8DCB;
+  --link-shadow: var(--sector-title-bg-color);
+  --decorated-rec-color: var(--background-color);
+  --hover-border: 1px solid rgba(50, 49, 45, 0.4);
+  --background-image: url(../images/cover-image-light.png);
+  --description-color: var(--main-text-color);
+  --sector-title-color: var(--main-text-color);
+  --sector-dark-title: var(--main-text-color);
+  --corner-color: var(--main-text-color);
 }
