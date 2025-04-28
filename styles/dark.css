@@ -22,6 +22,25 @@
   --description-color: var(--background-color);
   --sector-dark-title: var(--background-color);
   --corner-color: var(--title-shadow);
+  
 }
+
+@media (prefers-color-scheme: dark) { 
+  :root { 
+    --main-text-color: #F1B2CE; 
+    --title-color: #DB00FF; 
+    --title-shadow: #FF0070; 
+    --background-color: #000028; 
+    --link-shadow: var(--sector-title-color); 
+    --decorated-rec-color: var(--title-shadow); 
+    --hover-border: 1px solid rgba(255, 0, 112, 0.40); 
+    --background-image: url(../images/cover-image-dark.png); 
+    --sector-title-bg-color: var(--title-shadow); 
+    --sector-title-color: var(--title-shadow); 
+    --description-color: var(--background-color); 
+    --sector-dark-title: var(--background-color); 
+    --corner-color: var(--title-shadow); 
+  } 
+}  
 
 
